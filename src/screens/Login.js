@@ -34,7 +34,7 @@ const Login = () => {
                 }
             }
             else {
-                navigation.navigate("Home");
+                // navigation.navigate("Home");
                 setError(true);
                 setErrorMessage("Email and password cannot be Empty")
             }
